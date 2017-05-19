@@ -5,7 +5,7 @@ require_once '../classes/Image.php';
 require_once '../classes/Product.php';
 require_once 'klogger.class.php';
 
-$myLog = new KLogger('/var/www/lineaufficio/import/logs', KLogger::DEBUG);
+$myLog = new KLogger('/var/www/YOURNAMEFOLDER/import/logs', KLogger::DEBUG);
 
 /*
  * Check products
